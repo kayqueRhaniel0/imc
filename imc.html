@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Calcule seu IMC</title>
+	<link rel="stylesheet" href="imc.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Calcule seu IMC</h1>
+		</header>
+		<section class="sessão">
+			<div class="formulario">
+				<form>
+					<label for="number">Peso:</label>
+					<input type="number" name="number" class="peso" placeholder="Digite seu peso (Ex: 80.9)" autofocus="on">
+					<label for="altura">Altura:</label>
+					<input type="number" name="altura" class="altura" placeholder="Digite sua altura (Ex: 1,80)">
+					<input class="button" type="button" value="Calcule" onclick="IMC()"></input>
+				</form>
+			</div>
+			<div class="resultado">
+				<p style="font-weight: bold;">Preencha os dados acima.</p>
+			</div>
+		</section>
+	<footer>
+		<p>&copy;KayqueRhaniel</p>
+	</footer>
+	</div>
+	
+	<script type="text/javascript" src="imc.js"></script>
+</body>
+</html>

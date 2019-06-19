@@ -1,0 +1,40 @@
+.container{
+	position: relative;
+	top: 90px;
+}
+body{
+	background: #556B2F;
+	text-align: center;
+}
+section{
+	background: #FFFAFA;
+	border-radius: 50%;
+	padding: 40px;
+	width: 600px;
+	height: 200px;
+	margin: auto;
+	box-shadow: 2px 1px 2px black;
+}
+.button{
+	position: relative;
+	left: 15px;
+	background: #90b9f9;
+	border-radius: 10px;
+	padding: 3px;
+	width: 70px;
+}
+.button:hover{
+	background: white;
+}
+.peso,.altura{
+	border-radius: 10px;
+	padding: 8px;
+}
+.formulario{
+	position: relative;
+	top: 40px;
+}
+.resultado{
+	position: relative;
+	top: 80px;
+}
